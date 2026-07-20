@@ -1,4 +1,4 @@
-﻿const productos = [
+const productos = [
 
     {
         id: 1,
@@ -7,7 +7,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis1.jpg.jpeg"
     },
 
     {
@@ -17,7 +17,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis2.jpg (2).jpeg"
     },
 
     {
@@ -27,7 +27,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis3.jpg.jpeg"
     },
 
     {
@@ -37,7 +37,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis4.jpg (2).jpeg"
     },
 
     {
@@ -47,7 +47,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis5.jpg (2).jpeg"
     },
 
     {
@@ -57,7 +57,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis6.jpg (2).jpeg"
     },
 
     {
@@ -67,7 +67,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis7.jpg (2).jpeg"
     },
 
     {
@@ -77,7 +77,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis8.jpg (3).jpeg"
     },
 
     {
@@ -87,7 +87,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis9.jpg (3).jpeg"
     },
 
     {
@@ -97,7 +97,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis10.jpg (3).jpeg"
     },
 
     {
@@ -107,7 +107,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis11.jpg.webp"
     },
 
     {
@@ -117,7 +117,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis12.jpg (2).jpeg"
     },
 
     {
@@ -127,7 +127,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis13.jpg (2).jpeg"
     },
 
     {
@@ -137,7 +137,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis14.jpg (2).jpeg"
     },
 
     {
@@ -147,7 +147,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis15.jpg.jpeg"
     },
 
     {
@@ -157,7 +157,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis16.jpg.jpeg"
     },
 
     {
@@ -167,7 +167,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis17.jpg (2).jpeg"
     },
 
     {
@@ -177,7 +177,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis18.jpg.jpeg"
     },
 
     {
@@ -187,7 +187,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis19.jpg.jpeg"
     },
 
     {
@@ -197,7 +197,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis20.jpg.jpeg"
     },
 
     {
@@ -207,7 +207,7 @@
         precio: 1850,
         mayoreo: 1399,
         categoria: "Tenis",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/tenis/tenis21.jpg.jpeg"
     },
 
     {
@@ -217,7 +217,7 @@
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/playera1.jpg.jpeg"
     },
 
     {
@@ -227,7 +227,7 @@
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/playera2.jpg.jpeg"
     },
 
     {
@@ -237,257 +237,257 @@
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/playera3.jpg.jpeg"
     },
 
     {
         id: 25,
-        nombre: "Playera Hugo Boss ColecciÃ³n",
+        nombre: "Playera Hugo Boss Colección",
         marca: "Hugo Boss",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/playera4.jpg.jpeg"
     },
 
     {
         id: 26,
-        nombre: "PantalÃ³n American Eagle Negro",
+        nombre: "Pantalón American Eagle Negro",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon1.jpg.jpeg"
     },
 
     {
         id: 27,
-        nombre: "PantalÃ³n American Eagle Azul Roto",
+        nombre: "Pantalón American Eagle Azul Roto",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon2.jpg.jpeg"
     },
 
     {
         id: 28,
-        nombre: "PantalÃ³n American Eagle Negro",
+        nombre: "Pantalón American Eagle Negro",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon3.jpg.jpeg"
     },
 
     {
         id: 29,
-        nombre: "PantalÃ³n American Eagle Azul",
+        nombre: "Pantalón American Eagle Azul",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon4.jpg.jpeg"
     },
 
     {
         id: 30,
-        nombre: "PantalÃ³n American Eagle Azul Sky",
+        nombre: "Pantalón American Eagle Azul Sky",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon5.jpg.jpeg"
     },
 
     {
         id: 31,
-        nombre: "PantalÃ³n American Eagle Azul",
+        nombre: "Pantalón American Eagle Azul",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon6.jpg.jpeg"
     },
 
     {
         id: 32,
-        nombre: "PantalÃ³n Hugo Boss Negro Roto",
+        nombre: "Pantalón Hugo Boss Negro Roto",
         marca: "Hugo Boss",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon7.jpg.jpeg"
     },
 
     {
         id: 33,
-        nombre: "PantalÃ³n American Eagle Azul",
+        nombre: "Pantalón American Eagle Azul",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon8.jpg.jpeg"
     },
 
     {
         id: 34,
-        nombre: "PantalÃ³n American Eagle Azul Claro",
+        nombre: "Pantalón American Eagle Azul Claro",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon9.jpg.jpeg"
     },
 
     {
         id: 35,
-        nombre: "PantalÃ³n American Eagle Azul Claro",
+        nombre: "Pantalón American Eagle Azul Claro",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon10.jpg.jpeg"
     },
 
     {
         id: 36,
-        nombre: "PantalÃ³n Hugo Boss Negro Roto",
+        nombre: "Pantalón Hugo Boss Negro Roto",
         marca: "Hugo Boss",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon11.jpg.jpeg"
     },
 
     {
         id: 37,
-        nombre: "PantalÃ³n Hugo Boss Gris Roto",
+        nombre: "Pantalón Hugo Boss Gris Roto",
         marca: "Hugo Boss",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon12.jpg.jpeg"
     },
 
     {
         id: 38,
-        nombre: "PantalÃ³n Hugo Boss Negro",
+        nombre: "Pantalón Hugo Boss Negro",
         marca: "Hugo Boss",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon13.jpg.jpeg"
     },
 
     {
         id: 39,
-        nombre: "PantalÃ³n Hugo Boss Gris",
+        nombre: "Pantalón Hugo Boss Gris",
         marca: "Hugo Boss",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon14.jpg.jpeg"
     },
 
     {
         id: 40,
-        nombre: "PantalÃ³n Hugo Boss Negro",
+        nombre: "Pantalón Hugo Boss Negro",
         marca: "Hugo Boss",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon15.jpg.jpeg"
     },
 
     {
         id: 41,
-        nombre: "PantalÃ³n Hugo Boss Negro Roto",
+        nombre: "Pantalón Hugo Boss Negro Roto",
         marca: "Hugo Boss",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon16.jpg.jpeg"
     },
 
     {
         id: 42,
-        nombre: "PantalÃ³n Hugo Boss Azul Roto",
+        nombre: "Pantalón Hugo Boss Azul Roto",
         marca: "Hugo Boss",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon17.jpg.jpeg"
     },
 
     {
         id: 43,
-        nombre: "PantalÃ³n Hugo Boss Gris",
+        nombre: "Pantalón Hugo Boss Gris",
         marca: "Hugo Boss",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon18.jpg.jpeg"
     },
 
     {
         id: 44,
-        nombre: "PantalÃ³n American Eagle Negro",
+        nombre: "Pantalón American Eagle Negro",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon19.jpg.jpeg"
     },
 
     {
         id: 45,
-        nombre: "PantalÃ³n American Eagle Azul Oscuro",
+        nombre: "Pantalón American Eagle Azul Oscuro",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon20.jpg.jpeg"
     },
 
     {
         id: 46,
-        nombre: "PantalÃ³n American Eagle Azul",
+        nombre: "Pantalón American Eagle Azul",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon21.jpg.jpeg"
     },
 
     {
         id: 47,
-        nombre: "PantalÃ³n American Eagle Azul Claro",
+        nombre: "Pantalón American Eagle Azul Claro",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon22.jpg.jpeg"
     },
 
     {
         id: 48,
-        nombre: "PantalÃ³n American Eagle Azul Claro",
+        nombre: "Pantalón American Eagle Azul Claro",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon23.jpg.jpeg"
     },
 
     {
         id: 49,
-        nombre: "PantalÃ³n American Eagle Azul Sky",
+        nombre: "Pantalón American Eagle Azul Sky",
         marca: "American Eagle",
         precio: 999,
         mayoreo: 650,
         categoria: "Ropa",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/ropa/pantalon24.jpg.jpeg"
     },
 
     {
@@ -497,7 +497,7 @@
         precio: 1100,
         mayoreo: 850,
         categoria: "Perfumes",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/perfume/perfume1.jpg.jpeg"
     },
 
     {
@@ -507,7 +507,7 @@
         precio: 1100,
         mayoreo: 850,
         categoria: "Perfumes",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/perfume/perfume3.jpg.jpeg"
     },
 
     {
@@ -517,7 +517,7 @@
         precio: 1100,
         mayoreo: 850,
         categoria: "Perfumes",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/perfume/perfume2.jpg.webp"
     },
 
     {
@@ -527,7 +527,7 @@
         precio: 1100,
         mayoreo: 850,
         categoria: "Perfumes",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/perfume/perfume8.jpg.jpeg"
     },
 
     {
@@ -537,7 +537,7 @@
         precio: 1100,
         mayoreo: 850,
         categoria: "Perfumes",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/perfume/perfume4.jpg.jpeg"
     },
 
     {
@@ -547,7 +547,7 @@
         precio: 1100,
         mayoreo: 850,
         categoria: "Perfumes",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/perfume/perfume5.jpg.jpeg"
     },
 
     {
@@ -557,7 +557,7 @@
         precio: 1100,
         mayoreo: 850,
         categoria: "Perfumes",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/perfume/perfume6.jpg.jpeg"
     },
 
     {
@@ -567,7 +567,7 @@
         precio: 1100,
         mayoreo: 850,
         categoria: "Perfumes",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/perfume/perfume7.jpg.jpeg"
     },
 
     {
@@ -577,7 +577,7 @@
         precio: 1100,
         mayoreo: 850,
         categoria: "Perfumes",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/perfume/perfume8.jpg.jpeg"
     },
 
     {
@@ -587,7 +587,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/bolsa1.jpg.jpeg"
     },
 
     {
@@ -597,7 +597,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/bolsa2.jpg.jpeg"
     },
 
     {
@@ -607,7 +607,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/bolsa3.jpg.jpeg"
     },
 
     {
@@ -617,7 +617,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/bolsa4.jpg.jpeg"
     },
 
     {
@@ -627,7 +627,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/bolsa5.jpg.jpeg"
     },
 
     {
@@ -637,7 +637,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/bolsa6.jpg.jpeg"
     },
 
     {
@@ -647,7 +647,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/bolsa7.jpg (2).jpeg"
     },
 
     {
@@ -657,7 +657,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/bolsa8.jpg.jpeg"
     },
 
     {
@@ -667,7 +667,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/cartera1.jpg.jpeg"
     },
 
     {
@@ -677,7 +677,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/cartera2.jpg.jpeg"
     },
 
     {
@@ -687,7 +687,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/cartera3.jpg.jpeg"
     },
 
     {
@@ -697,7 +697,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/cartera4.jpg.jpeg"
     },
 
     {
@@ -707,7 +707,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/cartera5.jpg.jpeg"
     },
 
     {
@@ -717,7 +717,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/cartera6.jpg.jpeg"
     },
 
     {
@@ -727,7 +727,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/cartera7.jpg.jpeg"
     },
 
     {
@@ -737,7 +737,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/cartera8.jpg.jpeg"
     },
 
     {
@@ -747,7 +747,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/cartera9.jpg.jpeg"
     },
 
     {
@@ -757,7 +757,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/cartera10.jpg.jpeg"
     },
 
     {
@@ -767,7 +767,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/cartera11.jpg.jpeg"
     },
 
     {
@@ -777,7 +777,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/cartera12.jpg.jpeg"
     },
 
     {
@@ -787,7 +787,7 @@
         precio: 999,
         mayoreo: 690,
         categoria: "Bolsas",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/bolsas/cartera13.jpg.jpeg"
     },
 
     {
@@ -797,7 +797,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje1.jpg.jpeg"
     },
 
     {
@@ -807,7 +807,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje2.jpg.jpeg"
     },
 
     {
@@ -817,7 +817,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje3.jpg.jpeg"
     },
 
     {
@@ -827,7 +827,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje4.jpg.jpeg"
     },
 
     {
@@ -837,7 +837,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje5.jpg.jpeg"
     },
 
     {
@@ -847,7 +847,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje6.jpg.jpeg"
     },
 
     {
@@ -857,7 +857,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje7.jpg.jpeg"
     },
 
     {
@@ -867,7 +867,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje8.jpg.jpeg"
     },
 
     {
@@ -877,7 +877,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje9.jpg.jpeg"
     },
 
     {
@@ -887,7 +887,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje10.jpg.jpeg"
     },
 
     {
@@ -897,7 +897,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje11.jpg.jpeg"
     },
 
     {
@@ -907,7 +907,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje12.jpg.jpeg"
     },
 
     {
@@ -917,7 +917,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillje13.jpg.jpeg"
     },
 
     {
@@ -927,7 +927,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje14.jpg.jpeg"
     },
 
     {
@@ -937,7 +937,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillje15.jpg.jpeg"
     },
 
     {
@@ -947,7 +947,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje16.jpg.jpeg"
     },
 
     {
@@ -957,7 +957,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje17.jpg.jpeg"
     },
 
     {
@@ -967,7 +967,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje18.jpg.jpeg"
     },
 
     {
@@ -977,7 +977,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje19.jpg.jpeg"
     },
 
     {
@@ -987,7 +987,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje20.jpg.jpeg"
     },
 
     {
@@ -997,7 +997,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje21.jpg.jpeg"
     },
 
     {
@@ -1007,7 +1007,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje22.jpg.jpeg"
     },
 
     {
@@ -1017,7 +1017,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje23.jpg.jpeg"
     },
 
     {
@@ -1027,7 +1027,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje24.jpg.jpeg"
     },
 
     {
@@ -1037,7 +1037,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje25.jpg.jpeg"
     },
 
     {
@@ -1047,7 +1047,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje26.jpg.jpeg"
     },
 
     {
@@ -1057,7 +1057,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje27.jpg.jpeg"
     },
 
     {
@@ -1067,7 +1067,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje28.jpg.jpeg"
     },
 
     {
@@ -1077,7 +1077,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje29.jpg.jpeg"
     },
 
     {
@@ -1087,7 +1087,7 @@
         precio: 999,
         mayoreo: 680,
         categoria: "Maquillaje",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/maquillaje/maquillaje30.jpg.jpeg"
     },
 
     {
@@ -1097,7 +1097,7 @@
         precio: 1200,
         mayoreo: 699,
         categoria: "Cinturones",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/cinturones/cinturones3.jpg.jpeg"
     },
 
     {
@@ -1107,7 +1107,7 @@
         precio: 1200,
         mayoreo: 699,
         categoria: "Cinturones",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/cinturones/cinturones2.jpg.jpeg"
     },
 
     {
@@ -1117,7 +1117,7 @@
         precio: 1200,
         mayoreo: 699,
         categoria: "Cinturones",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/cinturones/cinturones6.jpg.jpeg"
     },
 
     {
@@ -1127,7 +1127,7 @@
         precio: 1200,
         mayoreo: 699,
         categoria: "Cinturones",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/cinturones/cinturones5.jpg.jpeg"
     },
 
     {
@@ -1137,7 +1137,7 @@
         precio: 1200,
         mayoreo: 699,
         categoria: "Cinturones",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/cinturones/cinturones13.jpg.jpeg"
     },
 
     {
@@ -1147,7 +1147,7 @@
         precio: 1200,
         mayoreo: 699,
         categoria: "Cinturones",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/cinturones/cinturones7.jpg.jpeg"
     },
 
     {
@@ -1157,7 +1157,7 @@
         precio: 1200,
         mayoreo: 699,
         categoria: "Cinturones",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/cinturones/cinturones11.jpg.jpeg"
     },
 
     {
@@ -1167,7 +1167,7 @@
         precio: 1200,
         mayoreo: 699,
         categoria: "Cinturones",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/cinturones/cinturones8.jpg.jpeg"
     },
 
     {
@@ -1177,7 +1177,7 @@
         precio: 1200,
         mayoreo: 699,
         categoria: "Cinturones",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/cinturones/cinturones9.jpg.jpeg"
     },
 
     {
@@ -1187,7 +1187,7 @@
         precio: 1200,
         mayoreo: 699,
         categoria: "Cinturones",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/cinturones/cinturones10.jpg.jpeg"
     },
 
     {
@@ -1197,7 +1197,7 @@
         precio: 1200,
         mayoreo: 699,
         categoria: "Cinturones",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/cinturones/cinturones14.jpg.jpeg"
     },
 
     {
@@ -1207,7 +1207,7 @@
         precio: 1200,
         mayoreo: 699,
         categoria: "Cinturones",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/cinturones/cinturones12.jpg.jpeg"
     },
 
     {
@@ -1217,7 +1217,7 @@
         precio: 1200,
         mayoreo: 699,
         categoria: "Cinturones",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/cinturones/cinturones4.jpg.jpeg"
     },
 
     {
@@ -1227,7 +1227,7 @@
         precio: 1200,
         mayoreo: 699,
         categoria: "Cinturones",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/cinturones/cinturones1.jpg.jpeg"
     },
 
     {
@@ -1237,7 +1237,7 @@
         precio: 0,
         mayoreo: 0,
         categoria: "Gorras",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/gorras/gorra1.jpg.jpeg"
     },
 
     {
@@ -1247,7 +1247,7 @@
         precio: 0,
         mayoreo: 0,
         categoria: "Gorras",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/gorras/gorra2.jpg.jpeg"
     },
 
     {
@@ -1257,7 +1257,7 @@
         precio: 0,
         mayoreo: 0,
         categoria: "Gorras",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/gorras/gorra3.jpg.jpeg"
     },
 
     {
@@ -1267,7 +1267,7 @@
         precio: 0,
         mayoreo: 0,
         categoria: "Gorras",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/gorras/gorra4.jpg.jpeg"
     },
 
     {
@@ -1277,7 +1277,7 @@
         precio: 0,
         mayoreo: 0,
         categoria: "Gorras",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/gorras/gorra5.jpg.jpeg"
     },
 
     {
@@ -1287,7 +1287,7 @@
         precio: 0,
         mayoreo: 0,
         categoria: "Gorras",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/gorras/gorra6.jpg.jpeg"
     },
 
     {
@@ -1297,7 +1297,7 @@
         precio: 0,
         mayoreo: 0,
         categoria: "Gorras",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/gorras/gorra7.jpg.jpeg"
     },
 
     {
@@ -1307,9 +1307,7 @@
         precio: 0,
         mayoreo: 0,
         categoria: "Gorras",
-        imagen:"./logo.jpeg"
+        imagen: "./img/imagenes/gorras/gorra8.jpg.jpeg"
     }
 ];
-
-
 
