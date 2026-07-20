@@ -1,114 +1,57 @@
 *{
 
-
-
     margin: 0;
-
-
 
     padding: 0;
 
-
-
     box-sizing: border-box;
 
-
-
 }
-
-
-
-
 
 
 
 body{
 
-
-
     background:#050505;
-
-
 
     color:white;
 
-
-
     font-family:'Poppins',sans-serif;
-
     overflow-x:hidden;
 
-
-
 }
-
-
-
-
 
 
 
 .top-logo{
 
-
-
     display: flex;
-
-
 
     justify-content: center;
 
-
-
     padding: 18px 0 8px 0;
 
-
-
 }
-
-
-
-
 
 
 
 .titulo{
 
-
-
     text-align: center;
-
-
 
     color: #d4af37;
 
-
-
     font-size: 42px;
-
-
 
     font-family: Georgia, serif;
 
-
-
     letter-spacing: 3px;
-
-
 
     margin-top: 10px;
 
-
-
     text-shadow: 0 0 15px rgba(212,175,55,.5);
 
-
-
 }
-
-
-
-
 
 
 
@@ -116,107 +59,53 @@ body{
 
 
 
-
-
-
-
 .hero-titulo{
-
-
 
     text-align:center;
 
-
-
     margin-bottom:25px;
 
-
-
 }
-
-
-
-
 
 
 
 .nombre-negocio{
 
-
-
     font-family:"Georgia", serif;
-
-
 
     font-size:72px;
 
-
-
     font-weight:800;
-
-
 
     letter-spacing:6px;
 
-
-
     text-transform:uppercase;
-
-
 
     color:#d4af37;
 
-
-
     text-align:center;
-
-
 
     margin-top: 30px;
 
-
-
     margin-bottom: 12px;
-
-
 
     text-shadow:
 
-
-
         0 4px 14px rgba(0,0,0,.75);
 
-
-
 }
-
-
-
-
 
 
 
 .nombre-negocio span{
 
-
-
     color:#d4af37;
-
-
 
     text-shadow:
 
-
-
         0 0 10px rgba(212,175,55,.25);
 
-
-
 }
-
-
-
-
 
 
 
@@ -224,59 +113,29 @@ body{
 
 
 
-
-
-
-
 .eslogan-negocio{
-
-
 
     font-family:"Georgia", serif;
 
-
-
     font-size:20px;
-
-
 
     color:#d7c08a;
 
-
-
     letter-spacing:4px;
-
-
 
     text-transform:uppercase;
 
-
-
     position:relative;
-
-
 
     display:inline-block;
 
-
-
     padding:0 18px;
-
-
 
     margin-top: 10px;
 
-
-
     margin-bottom: 18px;
 
-
-
 }
-
-
-
-
 
 
 
@@ -284,87 +143,43 @@ body{
 
 
 
-
-
-
-
 .eslogan-negocio::before,
-
-
 
 .eslogan-negocio::after{
 
-
-
     content:"";
-
-
 
     position:absolute;
 
-
-
     top:50%;
-
-
 
     width:70px;
 
-
-
     height:1px;
-
-
 
     background:linear-gradient(90deg,transparent,#d4af37,transparent);
 
-
-
 }
-
-
-
-
 
 
 
 .eslogan-negocio::before{
 
-
-
     right:100%;
-
-
 
     margin-right:14px;
 
-
-
 }
-
-
-
-
 
 
 
 .eslogan-negocio::after{
 
-
-
     left:100%;
-
-
 
     margin-left:14px;
 
-
-
 }
-
-
-
-
 
 
 
@@ -372,135 +187,67 @@ body{
 
 
 
-
-
-
-
 @keyframes flotandoNombre{
-
-
 
     0%,100%{
 
-
-
         transform:translateY(0);
 
-
-
     }
-
-
 
     50%{
 
-
-
         transform:translateY(-8px);
-
-
 
     }
 
-
-
 }
-
-
-
-
 
 
 
 .subtitulo{
 
-
-
     text-align: center;
-
-
 
     color: #cfcfcf;
 
-
-
     font-size: 18px;
-
-
 
     letter-spacing: 2px;
 
-
-
     margin-top: 8px;
-
-
 
     margin-bottom: 30px;
 
-
-
 }
-
-
-
-
 
 
 
 header.header{
 
-
-
     background: #000;
-
-
 
     padding: 20px 0 30px;
 
-
-
     text-align: center;
 
-
-
 }
-
-
-
-
 
 
 
 .logo-container{
 
-
-
     width: 100%;
-
-
 
     display: flex;
 
-
-
     justify-content: center;
-
-
 
     align-items: center;
 
-
-
     padding: 25px 0;
 
-
-
 }
-
-
-
-
 
 
 
@@ -508,47 +255,23 @@ header.header{
 
 
 
-
-
-
-
 .logo{
-
-
 
     position:relative;
 
-
-
     display:inline-flex;
-
-
 
     justify-content:center;
 
-
-
     align-items:center;
-
-
 
     padding:25px;
 
-
-
     border-radius:50%;
-
-
 
     overflow:visible;
 
-
-
 }
-
-
-
-
 
 
 
@@ -556,79 +279,39 @@ header.header{
 
 
 
-
-
-
-
 .logo::before{
-
-
 
     content:"";
 
-
-
     position:absolute;
-
-
 
     width:240px;
 
-
-
     height:240px;
-
-
 
     border-radius:50%;
 
-
-
     background:radial-gradient(
-
-
 
         circle,
 
-
-
         rgba(255,215,0,.55) 0%,
-
-
 
         rgba(212,175,55,.30) 35%,
 
-
-
         rgba(212,175,55,.10) 60%,
-
-
 
         transparent 82%
 
-
-
     );
-
-
 
     filter:blur(18px);
 
-
-
     animation:haloDorado 4s ease-in-out infinite;
-
-
 
     z-index:-3;
 
-
-
 }
-
-
-
-
 
 
 
@@ -636,115 +319,57 @@ header.header{
 
 
 
-
-
-
-
 .logo::after{
-
-
 
     content:"";
 
-
-
     position:absolute;
-
-
 
     width:260px;
 
-
-
     height:260px;
-
-
 
     border-radius:50%;
 
-
-
     background:
-
-
 
         radial-gradient(circle, rgba(255,215,0,.95) 0 2px, transparent 3px),
 
-
-
         radial-gradient(circle, rgba(212,175,55,.85) 0 3px, transparent 4px),
-
-
 
         radial-gradient(circle, rgba(0,0,0,.9) 0 3px, transparent 4px),
 
-
-
         radial-gradient(circle, rgba(25,25,25,.85) 0 2px, transparent 3px);
-
-
 
     background-size:
 
-
-
         34px 34px,
-
-
 
         52px 52px,
 
-
-
         44px 44px,
-
-
 
         68px 68px;
 
-
-
     background-position:
-
-
 
         0 0,
 
-
-
         18px 22px,
-
-
 
         10px 34px,
 
-
-
         30px 8px;
-
-
 
     filter:drop-shadow(0 0 10px rgba(255,215,0,.45));
 
-
-
     animation:particulasOrbitando 10s linear infinite;
-
-
 
     opacity:.9;
 
-
-
     z-index:-2;
 
-
-
 }
-
-
-
-
 
 
 
@@ -752,67 +377,33 @@ header.header{
 
 
 
-
-
-
-
 .logo img{
-
-
 
     width:170px;
 
-
-
     height:170px;
-
-
 
     object-fit:cover;
 
-
-
     border-radius:50%;
-
-
 
     border:3px solid rgba(255,215,0,.95);
 
-
-
     box-shadow:
-
-
 
         0 0 18px rgba(255,215,0,.75),
 
-
-
         0 0 45px rgba(212,175,55,.55),
-
-
 
         0 16px 35px rgba(0,0,0,.65);
 
-
-
     animation:flotarLogo 4s ease-in-out infinite;
-
-
 
     position:relative;
 
-
-
     z-index:2;
 
-
-
 }
-
-
-
-
 
 
 
@@ -820,79 +411,39 @@ header.header{
 
 
 
-
-
-
-
 .logo .base-luz{
-
-
 
     position:absolute;
 
-
-
     bottom:-18px;
-
-
 
     width:75%;
 
-
-
     height:26px;
-
-
 
     border-radius:50%;
 
-
-
     background:radial-gradient(
-
-
 
         ellipse at center,
 
-
-
         rgba(255,215,0,.60) 0%,
-
-
 
         rgba(212,175,55,.25) 45%,
 
-
-
         rgba(0,0,0,.18) 65%,
-
-
 
         transparent 82%
 
-
-
     );
-
-
 
     filter:blur(12px);
 
-
-
     animation:baseLuz 3.5s ease-in-out infinite;
-
-
 
     z-index:-1;
 
-
-
 }
-
-
-
-
 
 
 
@@ -900,167 +451,83 @@ header.header{
 
 
 
-
-
-
-
 @keyframes haloDorado{
-
-
 
     0%,100%{
 
-
-
         transform:scale(1);
-
-
 
         opacity:.9;
 
-
-
     }
-
-
 
     50%{
 
-
-
         transform:scale(1.08);
-
-
 
         opacity:1;
 
-
-
     }
 
-
-
 }
-
-
-
-
 
 
 
 @keyframes particulasOrbitando{
 
-
-
     0%{
-
-
 
         transform:rotate(0deg);
 
-
-
     }
-
-
 
     100%{
 
-
-
         transform:rotate(360deg);
-
-
 
     }
 
-
-
 }
-
-
-
-
 
 
 
 @keyframes flotarLogo{
 
-
-
     0%,100%{
-
-
 
         transform:translateY(0);
 
-
-
     }
-
-
 
     50%{
 
-
-
         transform:translateY(-10px);
-
-
 
     }
 
-
-
 }
-
-
-
-
 
 
 
 @keyframes baseLuz{
 
-
-
     0%,100%{
-
-
 
         transform:scaleX(1);
 
-
-
         opacity:.8;
 
-
-
     }
-
-
 
     50%{
 
-
-
         transform:scaleX(1.12);
-
-
 
         opacity:1;
 
-
-
     }
 
-
-
 }
-
-
-
-
 
 
 
@@ -1068,15 +535,7 @@ header.header{
 
 
 
-
-
-
-
 .imagen-producto{
-
-
-
-
 
 
 
@@ -1084,15 +543,7 @@ header.header{
 
 
 
-
-
-
-
     height:320px;
-
-
-
-
 
 
 
@@ -1100,15 +551,7 @@ header.header{
 
 
 
-
-
-
-
     justify-content:center;
-
-
-
-
 
 
 
@@ -1116,15 +559,7 @@ header.header{
 
 
 
-
-
-
-
     overflow:hidden;
-
-
-
-
 
 
 
@@ -1132,25 +567,11 @@ header.header{
 
 
 
-
-
-
-
     background:#ffffff;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -1160,15 +581,7 @@ header.header{
 
 
 
-
-
-
-
     width:100%;
-
-
-
-
 
 
 
@@ -1176,15 +589,7 @@ header.header{
 
 
 
-
-
-
-
     object-fit:contain;
-
-
-
-
 
 
 
@@ -1192,17 +597,7 @@ header.header{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -1212,25 +607,11 @@ header.header{
 
 
 
-
-
-
-
     transform:scale(1.08);
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -1240,25 +621,11 @@ header.header{
 
 
 
-
-
-
-
     padding:18px;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -1268,91 +635,45 @@ header.header{
 
 
 
-
-
-
-
     transform:scale(1.05);
 
 
 
-
-
-
-
 }
-
-
-
-
 
 
 
 .menu{
 
-
-
     margin-top: 25px;
 
-
-
 }
-
-
-
-
 
 
 
 .menu a{
 
-
-
     color: white;
-
-
 
     text-decoration: none;
 
-
-
     margin: 0 18px;
-
-
 
     font-size: 18px;
 
-
-
     font-weight: bold;
-
-
 
     transition: .3s;
 
-
-
 }
-
-
-
-
 
 
 
 .menu a:hover{
 
-
-
     color: #d4af37;
 
-
-
 }
-
-
-
-
 
 
 
@@ -1360,45 +681,21 @@ header.header{
 
 
 
-
-
-
-
 .menu-icono{
-
-
-
-
 
 
 
     display:none;
 
-
-
     color:#d4af37;
 
-
-
     font-size:32px;
-
-
 
     cursor:pointer;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -1408,33 +705,15 @@ nav{
 
 
 
-
-
-
-
     display:flex;
 
-
-
     justify-content:center;
-
-
 
     gap:30px;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -1444,37 +723,17 @@ nav a{
 
 
 
-
-
-
-
     color:white;
-
-
 
     text-decoration:none;
 
-
-
     font-weight:bold;
-
-
 
     transition:.3s;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -1484,27 +743,11 @@ nav a:hover{
 
 
 
-
-
-
-
     color:#d4af37;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -1518,43 +761,19 @@ nav a:hover{
 
 
 
-
-
-
-
-
-
 .menu-icono{
-
-
-
-
 
 
 
     display:block;
 
-
-
     text-align:right;
-
-
 
     padding:15px;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -1564,57 +783,27 @@ nav{
 
 
 
-
-
-
-
     position:absolute;
-
-
 
     top:70px;
 
-
-
     left:0;
-
-
 
     width:100%;
 
-
-
     background:#111;
-
-
 
     flex-direction:column;
 
-
-
     text-align:center;
 
-
-
     padding:20px;
-
-
 
     display:none;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -1624,25 +813,11 @@ nav.mostrar{
 
 
 
-
-
-
-
     display:flex;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -1652,47 +827,23 @@ nav a{
 
 
 
-
-
-
-
     padding:12px;
 
 
 
-
-
-
-
 }
 
 
 
 
 
-
-
-
-
-
-
 }
-
-
-
-
 
 
 
 /* BANNER PRINCIPAL */
 
-
-
 /* HERO PREMIUM */
-
-
-
-
 
 
 
@@ -1700,85 +851,41 @@ nav a{
 
 
 
-
-
-
-
     min-height:600px;
-
-
 
     display:flex;
 
-
-
     justify-content:center;
-
-
 
     align-items:center;
 
-
-
     text-align:center;
-
-
 
     padding:40px;
 
 
 
-
-
-
-
     background:
-
-
 
     linear-gradient(
 
-
-
     rgba(0,0,0,.75),
-
-
 
     rgba(0,0,0,.9)
 
-
-
     ),
-
-
 
     url("./banner.jpg.jpeg");
 
 
 
-
-
-
-
     background-size:cover;
-
-
 
     background-position:center;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -1788,23 +895,11 @@ nav a{
 
 
 
-
-
-
-
     max-width:800px;
 
 
 
-
-
-
-
 }
-
-
-
-
 
 
 
@@ -1812,63 +907,29 @@ nav a{
 
 
 
-
-
-
-
 .hero h1{
-
-
-
-
 
 
 
     font-size:55px;
 
-
-
     color:#d4af37;
-
-
 
     letter-spacing:3px;
 
-
-
     text-transform:uppercase;
-
-
 
     font-weight:700;
 
 
 
-
-
-
-
     text-shadow:
-
-
 
     0 3px 10px rgba(0,0,0,0.8);
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -1880,37 +941,17 @@ nav a{
 
 
 
-
-
-
-
     color:white;
-
-
 
     font-size:22px;
 
-
-
     line-height:1.6;
-
-
 
     margin:25px 0;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -1920,15 +961,7 @@ nav a{
 
 
 
-
-
-
-
     padding:16px 40px;
-
-
-
-
 
 
 
@@ -1936,27 +969,13 @@ nav a{
 
 
 
-
-
-
-
     border-radius:40px;
-
-
-
-
 
 
 
     background:
 
-
-
     linear-gradient(45deg,#d4af37,#f5d76e);
-
-
-
-
 
 
 
@@ -1964,15 +983,7 @@ nav a{
 
 
 
-
-
-
-
     font-size:18px;
-
-
-
-
 
 
 
@@ -1980,15 +991,7 @@ nav a{
 
 
 
-
-
-
-
     cursor:pointer;
-
-
-
-
 
 
 
@@ -1996,17 +999,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -2016,35 +1009,17 @@ nav a{
 
 
 
-
-
-
-
     transform:scale(1.08);
-
-
-
-
 
 
 
     box-shadow:
 
-
-
     0 0 25px #d4af37;
 
 
 
-
-
-
-
 }
-
-
-
-
 
 
 
@@ -2052,15 +1027,7 @@ nav a{
 
 
 
-
-
-
-
 .categorias-seccion{
-
-
-
-
 
 
 
@@ -2068,53 +1035,25 @@ nav a{
 
 
 
-
-
-
-
     padding:60px 20px;
-
-
-
-
 
 
 
     background:
 
-
-
     linear-gradient(
-
-
 
     180deg,
 
-
-
     #050505,
 
-
-
     #111
-
-
 
     );
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -2124,15 +1063,7 @@ nav a{
 
 
 
-
-
-
-
     color:#d4af37;
-
-
-
-
 
 
 
@@ -2140,15 +1071,7 @@ nav a{
 
 
 
-
-
-
-
     text-transform:uppercase;
-
-
-
-
 
 
 
@@ -2156,15 +1079,7 @@ nav a{
 
 
 
-
-
-
-
     font-family:"Georgia",serif;
-
-
-
-
 
 
 
@@ -2172,17 +1087,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -2192,15 +1097,7 @@ nav a{
 
 
 
-
-
-
-
     color:#aaa;
-
-
-
-
 
 
 
@@ -2208,15 +1105,7 @@ nav a{
 
 
 
-
-
-
-
     letter-spacing:2px;
-
-
-
-
 
 
 
@@ -2224,17 +1113,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -2244,15 +1123,7 @@ nav a{
 
 
 
-
-
-
-
 .titulo-categoria::after{
-
-
-
-
 
 
 
@@ -2260,15 +1131,7 @@ nav a{
 
 
 
-
-
-
-
     display:block;
-
-
-
-
 
 
 
@@ -2276,15 +1139,7 @@ nav a{
 
 
 
-
-
-
-
     height:2px;
-
-
-
-
 
 
 
@@ -2292,25 +1147,11 @@ nav a{
 
 
 
-
-
-
-
     margin:20px auto;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -2318,141 +1159,71 @@ nav a{
 
 /* CATEGORÃAS */
 
-
-
 .categorias{
-
-
 
     display:flex;
 
-
-
     justify-content:center;
-
-
 
     align-items:center;
 
-
-
     gap:28px;
-
-
 
     flex-wrap:wrap;
 
-
-
     margin-top:20px;
 
-
-
 }
-
-
-
-
 
 
 
 .categorias button{
 
-
-
     background:transparent;
-
-
 
     border:none;
 
-
-
     color:#f5f5f5;
-
-
 
     font-weight:700;
 
-
-
     letter-spacing:1px;
-
-
 
     cursor:pointer;
 
-
-
     transition:.3s;
 
-
-
 }
-
-
-
-
 
 
 
 .categorias button:hover{
 
-
-
     color:#d4af37;
-
-
 
     transform:translateY(-2px);
 
-
-
 }
-
-
-
-
 
 
 
 .categorias-filtro {
 
-
-
     display: flex;
-
-
 
     justify-content: center;
 
-
-
     flex-wrap: wrap;
-
-
 
     gap: 15px;
 
-
-
     margin: 40px auto;
-
-
 
     padding: 20px;
 
-
-
     max-width: 1100px;
 
-
-
 }
-
-
-
-
 
 
 
@@ -2460,59 +1231,29 @@ nav a{
 
 
 
-
-
-
-
 .buscador{
-
-
-
-
 
 
 
     width:90%;
 
-
-
     max-width:900px;
 
-
-
     margin:40px auto;
-
-
 
     padding:25px;
 
 
 
-
-
-
-
     display:flex;
-
-
 
     justify-content:center;
 
-
-
     align-items:center;
-
-
 
     gap:15px;
 
-
-
     flex-wrap:wrap;
-
-
-
-
 
 
 
@@ -2520,15 +1261,7 @@ nav a{
 
 
 
-
-
-
-
     border:1px solid rgba(212,175,55,0.5);
-
-
-
-
 
 
 
@@ -2536,33 +1269,15 @@ nav a{
 
 
 
-
-
-
-
     box-shadow:
 
-
-
     0 10px 30px rgba(0,0,0,.7),
-
-
 
     0 0 20px rgba(212,175,55,.2);
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -2572,19 +1287,9 @@ nav a{
 
 
 
-
-
-
-
     width:450px;
 
-
-
     max-width:90%;
-
-
-
-
 
 
 
@@ -2592,15 +1297,7 @@ nav a{
 
 
 
-
-
-
-
     background:#050505;
-
-
-
-
 
 
 
@@ -2608,15 +1305,7 @@ nav a{
 
 
 
-
-
-
-
     border:1px solid #d4af37;
-
-
-
-
 
 
 
@@ -2624,15 +1313,7 @@ nav a{
 
 
 
-
-
-
-
     font-size:16px;
-
-
-
-
 
 
 
@@ -2640,17 +1321,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -2660,29 +1331,13 @@ nav a{
 
 
 
-
-
-
-
     box-shadow:
-
-
 
     0 0 15px #d4af37;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -2692,25 +1347,11 @@ nav a{
 
 
 
-
-
-
-
     color:#aaa;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -2720,15 +1361,7 @@ nav a{
 
 
 
-
-
-
-
     padding:16px 30px;
-
-
-
-
 
 
 
@@ -2736,27 +1369,13 @@ nav a{
 
 
 
-
-
-
-
     border-radius:30px;
-
-
-
-
 
 
 
     background:
 
-
-
     linear-gradient(45deg,#d4af37,#f5d76e);
-
-
-
-
 
 
 
@@ -2764,15 +1383,7 @@ nav a{
 
 
 
-
-
-
-
     font-weight:bold;
-
-
-
-
 
 
 
@@ -2780,15 +1391,7 @@ nav a{
 
 
 
-
-
-
-
     cursor:pointer;
-
-
-
-
 
 
 
@@ -2796,17 +1399,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -2816,351 +1409,175 @@ nav a{
 
 
 
-
-
-
-
     transform:scale(1.08);
-
-
-
-
 
 
 
     box-shadow:
 
-
-
     0 0 25px #d4af37;
 
 
 
-
-
-
-
 }
-
-
-
-
 
 
 
 .categorias-filtro button,
 
-
-
 .categorias button {
-
-
 
     background: linear-gradient(145deg, #111, #222);
 
-
-
     color: #d4af37;
-
-
 
     border: 1px solid #d4af37;
 
-
-
     padding: 12px 25px;
-
-
 
     border-radius: 30px;
 
-
-
     font-size: 15px;
-
-
 
     font-weight: bold;
 
-
-
     cursor: pointer;
-
-
 
     letter-spacing: 1px;
 
-
-
     transition: 0.4s ease;
-
-
 
     box-shadow: 0 0 10px rgba(212,175,55,0.3);
 
-
-
 }
-
-
-
-
 
 
 
 .categorias-filtro button:hover,
 
-
-
 .categorias button:hover {
-
-
 
     background: #d4af37;
 
-
-
     color: #111;
-
-
 
     transform: translateY(-5px);
 
-
-
     box-shadow: 0 8px 20px rgba(212,175,55,0.6);
 
-
-
 }
-
-
-
-
 
 
 
 .categorias-filtro button:active,
 
-
-
 .categorias button:active {
-
-
 
     transform: scale(0.95);
 
-
-
 }
-
-
-
-
 
 
 
 .titulo-seccion{
 
-
-
     text-align:center;
-
-
 
     color:#d4af37;
 
-
-
     font-size:42px;
-
-
 
     margin-bottom:50px;
 
-
-
 }
-
-
-
-
 
 
 
 .contenedor-categorias{
 
-
-
     display:grid;
-
-
 
     grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 
-
-
     gap:30px;
 
-
-
 }
-
-
-
-
 
 
 
 .card{
 
-
-
     background:#1b1b1b;
-
-
 
     border-radius:20px;
 
-
-
     overflow:hidden;
-
-
 
     transition:.4s;
 
-
-
     box-shadow:0 10px 25px rgba(0,0,0,.4);
 
-
-
 }
-
-
-
-
 
 
 
 .card img{
 
-
-
     width:100%;
-
-
 
     height:280px;
 
-
-
     object-fit:cover;
 
-
-
 }
-
-
-
-
 
 
 
 .card h3{
 
-
-
     color:white;
-
-
 
     text-align:center;
 
-
-
     padding:20px;
-
-
 
     font-size:24px;
 
-
-
 }
-
-
-
-
 
 
 
 .card:hover{
 
-
-
     transform:translateY(-10px);
-
-
 
     box-shadow:0 15px 35px rgba(212,175,55,.4);
 
-
-
 }
-
-
-
-
 
 
 
 /* PRODUCTOS */
 
-
-
 .productos{
-
-
 
     background:#000;
 
-
-
     padding:80px 8%;
 
-
-
 }
-
-
-
-
 
 
 
 .contenedor-productos{
 
-
-
     display:grid;
-
-
 
     grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 
-
-
     gap:30px;
 
-
-
 }
-
-
-
-
 
 
 
@@ -3168,57 +1585,27 @@ nav a{
 
 
 
-
-
-
-
     background: linear-gradient(145deg, #111, #1c1c1c);
-
-
 
     border: 1px solid rgba(212,175,55,0.4);
 
-
-
     border-radius: 20px;
-
-
 
     padding: 20px;
 
-
-
     text-align: center;
-
-
 
     color: white;
 
-
-
     transition: 0.4s ease;
 
-
-
     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-
-
 
     overflow: hidden;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -3228,33 +1615,15 @@ nav a{
 
 
 
-
-
-
-
     transform: translateY(-10px);
 
-
-
     border-color: #d4af37;
-
-
 
     box-shadow: 0 15px 35px rgba(212,175,55,0.4);
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -3264,15 +1633,7 @@ nav a{
 
 
 
-
-
-
-
 .producto img{
-
-
-
-
 
 
 
@@ -3280,15 +1641,7 @@ nav a{
 
 
 
-
-
-
-
     height:300px;
-
-
-
-
 
 
 
@@ -3296,15 +1649,7 @@ nav a{
 
 
 
-
-
-
-
     padding:15px;
-
-
-
-
 
 
 
@@ -3312,15 +1657,7 @@ nav a{
 
 
 
-
-
-
-
     border-radius:15px;
-
-
-
-
 
 
 
@@ -3328,17 +1665,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -3348,25 +1675,11 @@ nav a{
 
 
 
-
-
-
-
     transform:scale(1.05);
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -3376,33 +1689,15 @@ nav a{
 
 
 
-
-
-
-
     color: #d4af37;
 
-
-
     font-size: 22px;
-
-
 
     margin-top: 15px;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -3412,29 +1707,13 @@ nav a{
 
 
 
-
-
-
-
     color: #ccc;
-
-
 
     font-size: 14px;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -3444,37 +1723,17 @@ nav a{
 
 
 
-
-
-
-
     display: block;
-
-
 
     color: white;
 
-
-
     font-size: 20px;
-
-
 
     margin: 15px 0;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -3484,15 +1743,7 @@ nav a{
 
 
 
-
-
-
-
 .nombre-producto{
-
-
-
-
 
 
 
@@ -3500,15 +1751,7 @@ nav a{
 
 
 
-
-
-
-
     font-weight:bold;
-
-
-
-
 
 
 
@@ -3516,15 +1759,7 @@ nav a{
 
 
 
-
-
-
-
     margin-top:15px;
-
-
-
-
 
 
 
@@ -3532,25 +1767,11 @@ nav a{
 
 
 
-
-
-
-
     text-align:center;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -3560,15 +1781,7 @@ nav a{
 
 
 
-
-
-
-
 .marca-producto{
-
-
-
-
 
 
 
@@ -3576,15 +1789,7 @@ nav a{
 
 
 
-
-
-
-
     color:#ffffff;
-
-
-
-
 
 
 
@@ -3592,15 +1797,7 @@ nav a{
 
 
 
-
-
-
-
     margin-bottom:5px;
-
-
-
-
 
 
 
@@ -3608,17 +1805,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -3628,23 +1815,11 @@ nav a{
 
 
 
-
-
-
-
 .categoria-producto{
 
 
 
-
-
-
-
     font-size:14px;
-
-
-
-
 
 
 
@@ -3652,15 +1827,7 @@ nav a{
 
 
 
-
-
-
-
     letter-spacing:1px;
-
-
-
-
 
 
 
@@ -3668,15 +1835,7 @@ nav a{
 
 
 
-
-
-
-
     margin-bottom:15px;
-
-
-
-
 
 
 
@@ -3684,125 +1843,61 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
 
 
 
 .precio-gorras{
 
-
-
     color:#f1d486;
-
-
 
     font-size:15px;
 
-
-
     font-weight:700;
-
-
 
     line-height:1.5;
 
-
-
     margin-bottom:10px;
-
-
 
     text-align:center;
 
-
-
 }
-
-
-
-
 
 
 
 .contacto-gorras{
 
-
-
     color:#d7d7d7;
-
-
 
     font-size:14px;
 
-
-
     line-height:1.6;
-
-
 
     margin-bottom:14px;
 
-
-
     text-align:center;
 
-
-
 }
-
-
-
-
 
 
 
 .contacto-gorras a{
 
-
-
     color:#25D366;
-
-
 
     font-weight:700;
 
-
-
     text-decoration:none;
 
-
-
 }
-
-
-
-
 
 
 
 .contacto-gorras a:hover{
 
-
-
     text-decoration:underline;
 
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -3812,53 +1907,25 @@ nav a{
 
 
 
-
-
-
-
     background: linear-gradient(45deg,#d4af37,#f5d76e);
-
-
 
     color: black;
 
-
-
     border: none;
-
-
 
     padding: 12px 25px;
 
-
-
     border-radius: 25px;
-
-
 
     font-weight: bold;
 
-
-
     cursor: pointer;
-
-
 
     transition: 0.3s;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -3868,111 +1935,55 @@ nav a{
 
 
 
-
-
-
-
     transform: scale(1.08);
-
-
 
     box-shadow: 0 0 20px #d4af37;
 
 
 
-
-
-
-
 }
-
-
-
-
 
 
 
 /* CARRITO */
 
-
-
 .carrito-icono{
-
-
 
     position: fixed;
 
-
-
     top: 25px;
-
-
 
     right: 30px;
 
-
-
     background: #d4af37;
-
-
 
     color: #000;
 
-
-
     padding: 12px 18px;
-
-
 
     border-radius: 50px;
 
-
-
     font-weight: bold;
-
-
 
     cursor: pointer;
 
-
-
     box-shadow: 0 8px 20px rgba(0,0,0,.4);
-
-
 
     z-index: 1000;
 
-
-
     transition: .3s;
 
-
-
 }
-
-
-
-
 
 
 
 .carrito-icono:hover{
 
-
-
     transform: scale(1.08);
-
-
 
     background: white;
 
-
-
 }
-
-
-
-
 
 
 
@@ -3980,45 +1991,21 @@ nav a{
 
 
 
-
-
-
-
 .carrito-icono{
-
-
-
-
 
 
 
     color:#d4af37;
 
-
-
     cursor:pointer;
 
-
-
     font-size:18px;
-
-
 
     font-weight:bold;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -4028,37 +2015,17 @@ nav a{
 
 
 
-
-
-
-
     background:#d4af37;
-
-
 
     color:black;
 
-
-
     border-radius:50%;
-
-
 
     padding:3px 8px;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -4068,65 +2035,31 @@ nav a{
 
 
 
-
-
-
-
     position:fixed;
-
-
 
     right:-400px;
 
-
-
     top:0;
-
-
 
     width:350px;
 
-
-
     height:100%;
-
-
 
     background:#111;
 
-
-
     color:white;
-
-
 
     padding:25px;
 
-
-
     transition:.5s;
 
-
-
     box-shadow:-10px 0 30px black;
-
-
 
     z-index:999;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -4136,25 +2069,11 @@ nav a{
 
 
 
-
-
-
-
     right:0;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -4164,25 +2083,11 @@ nav a{
 
 
 
-
-
-
-
     color:#d4af37;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -4192,77 +2097,37 @@ nav a{
 
 
 
-
-
-
-
 .btn-whatsapp{
-
-
-
-
 
 
 
     margin-top:15px;
 
-
-
     width:100%;
-
-
 
     padding:14px 18px 14px 48px;
 
-
-
     border:none;
-
-
 
     border-radius:30px;
 
-
-
     background:#25D366;
-
-
 
     color:white;
 
-
-
     font-weight:bold;
-
-
 
     cursor:pointer;
 
-
-
     transition:.3s;
 
-
-
     position: relative;
-
-
 
     text-align: left;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -4270,39 +2135,19 @@ nav a{
 
 .btn-whatsapp::before{
 
-
-
     content: "ðŸŸ¢";
-
-
 
     position: absolute;
 
-
-
     left: 18px;
-
-
 
     top: 50%;
 
-
-
     transform: translateY(-50%);
-
-
 
     font-size: 18px;
 
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -4312,139 +2157,69 @@ nav a{
 
 
 
-
-
-
-
     transform:scale(1.05);
-
-
 
     box-shadow:0 0 20px #25D366;
 
 
 
-
-
-
-
 }
-
-
-
-
 
 
 
 /* BOTÃ“N PAGAR (TARJETA) */
 
-
-
 .btn-tarjeta{
-
-
-
-
 
 
 
     margin-top:12px;
 
-
-
     width:100%;
-
-
 
     padding:14px 18px;
 
-
-
     border:none;
-
-
 
     border-radius:30px;
 
-
-
     background: linear-gradient(135deg,#0f62fe,#1985ff);
-
-
 
     color:white;
 
-
-
     font-weight:800;
-
-
 
     font-size:16px;
 
-
-
     cursor:pointer;
-
-
 
     transition: transform .2s ease, box-shadow .2s ease;
 
-
-
     text-align:left;
-
-
 
     position:relative;
 
 
 
-
-
-
-
 }
-
-
-
-
 
 
 
 .btn-tarjeta::before{
 
-
-
     content: "ðŸ’³";
-
-
 
     position:absolute;
 
-
-
     left:16px;
-
-
 
     top:50%;
 
-
-
     transform:translateY(-50%);
-
-
 
     font-size:18px;
 
-
-
 }
-
-
-
-
 
 
 
@@ -4452,27 +2227,13 @@ nav a{
 
 
 
-
-
-
-
     transform:translateY(-3px);
-
-
 
     box-shadow:0 8px 30px rgba(15,98,254,0.25);
 
 
 
-
-
-
-
 }
-
-
-
-
 
 
 
@@ -4480,15 +2241,7 @@ nav a{
 
 
 
-
-
-
-
 /* LOADER PREMIUM */
-
-
-
-
 
 
 
@@ -4496,65 +2249,31 @@ nav a{
 
 
 
-
-
-
-
     position:fixed;
-
-
 
     top:0;
 
-
-
     left:0;
-
-
 
     width:100%;
 
-
-
     height:100%;
-
-
 
     background:#050505;
 
-
-
     display:flex;
-
-
 
     justify-content:center;
 
-
-
     align-items:center;
 
-
-
     z-index:9999;
-
-
 
     animation: desaparecer 3s forwards;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -4564,55 +2283,27 @@ nav a{
 
 
 
-
-
-
-
     color:#d4af37;
-
-
 
     font-size:40px;
 
-
-
     font-weight:bold;
 
-
-
     letter-spacing:5px;
-
-
 
     animation: brillo 1.5s infinite;
 
 
 
-
-
-
-
 }
-
-
-
-
 
 
 
 .loader-contenido{
 
-
-
     text-align:center;
 
-
-
 }
-
-
-
-
 
 
 
@@ -4620,15 +2311,7 @@ nav a{
 
 
 
-
-
-
-
 .logo-loader-wrap{
-
-
-
-
 
 
 
@@ -4636,19 +2319,9 @@ nav a{
 
 
 
-
-
-
-
     width:180px;
 
-
-
     height:180px;
-
-
-
-
 
 
 
@@ -4656,37 +2329,17 @@ nav a{
 
 
 
-
-
-
-
     display:flex;
-
-
-
-
 
 
 
     justify-content:center;
 
-
-
     align-items:center;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -4696,15 +2349,7 @@ nav a{
 
 
 
-
-
-
-
 .logo-loader-wrap::before{
-
-
-
-
 
 
 
@@ -4712,27 +2357,13 @@ nav a{
 
 
 
-
-
-
-
     position:absolute;
-
-
-
-
 
 
 
     width:240px;
 
-
-
     height:240px;
-
-
-
-
 
 
 
@@ -4740,43 +2371,21 @@ nav a{
 
 
 
-
-
-
-
     background:radial-gradient(
-
-
 
         circle,
 
-
-
         rgba(255,215,0,.55) 0%,
-
-
 
         rgba(212,175,55,.38) 30%,
 
-
-
         rgba(212,175,55,.16) 55%,
-
-
 
         rgba(212,175,55,.05) 72%,
 
-
-
         transparent 85%
 
-
-
     );
-
-
-
-
 
 
 
@@ -4784,15 +2393,7 @@ nav a{
 
 
 
-
-
-
-
     animation:haloDorado 3.5s ease-in-out infinite;
-
-
-
-
 
 
 
@@ -4800,17 +2401,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -4820,15 +2411,7 @@ nav a{
 
 
 
-
-
-
-
 .logo-loader-wrap::after{
-
-
-
-
 
 
 
@@ -4836,27 +2419,13 @@ nav a{
 
 
 
-
-
-
-
     position:absolute;
-
-
-
-
 
 
 
     width:205px;
 
-
-
     height:205px;
-
-
-
-
 
 
 
@@ -4864,35 +2433,17 @@ nav a{
 
 
 
-
-
-
-
     border:2px solid rgba(255,215,0,.9);
-
-
-
-
 
 
 
     box-shadow:
 
-
-
         0 0 18px rgba(255,215,0,.9),
-
-
 
         0 0 38px rgba(255,215,0,.65),
 
-
-
         0 0 70px rgba(212,175,55,.5);
-
-
-
-
 
 
 
@@ -4900,21 +2451,9 @@ nav a{
 
 
 
-
-
-
-
     z-index:-1;
 
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -4924,27 +2463,13 @@ nav a{
 
 
 
-
-
-
-
 .logo-loader-img{
-
-
-
-
 
 
 
     width:170px;
 
-
-
     height:170px;
-
-
-
-
 
 
 
@@ -4952,15 +2477,7 @@ nav a{
 
 
 
-
-
-
-
     border-radius:50%;
-
-
-
-
 
 
 
@@ -4968,41 +2485,19 @@ nav a{
 
 
 
-
-
-
-
     box-shadow:
-
-
 
         0 0 22px rgba(255,215,0,.75),
 
-
-
         0 0 55px rgba(212,175,55,.55),
-
-
 
         0 18px 35px rgba(0,0,0,.6);
 
 
 
-
-
-
-
     animation:flotarLogo 4s ease-in-out infinite;
 
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -5012,15 +2507,7 @@ nav a{
 
 
 
-
-
-
-
 @keyframes haloDorado{
-
-
-
-
 
 
 
@@ -5028,27 +2515,13 @@ nav a{
 
 
 
-
-
-
-
         transform:scale(1);
-
-
 
         opacity:.9;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -5056,19 +2529,9 @@ nav a{
 
 
 
-
-
-
-
         transform:scale(1.08);
 
-
-
         opacity:1;
-
-
-
-
 
 
 
@@ -5076,17 +2539,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -5096,15 +2549,7 @@ nav a{
 
 
 
-
-
-
-
 @keyframes anilloBrillante{
-
-
-
-
 
 
 
@@ -5112,27 +2557,13 @@ nav a{
 
 
 
-
-
-
-
         transform:scale(1);
-
-
 
         opacity:.85;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -5140,19 +2571,9 @@ nav a{
 
 
 
-
-
-
-
         transform:scale(1.05);
 
-
-
         opacity:1;
-
-
-
-
 
 
 
@@ -5160,103 +2581,49 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
 
 
 
 .titulo-loader{
 
-
-
     color:#f5f5f5;
-
-
 
     font-size:46px;
 
-
-
     font-family:"Georgia", serif;
-
-
 
     font-weight:800;
 
-
-
     letter-spacing:2px;
-
-
 
     margin-bottom:10px;
 
-
-
     animation:brillo 1.5s infinite;
 
-
-
 }
-
-
-
-
 
 
 
 .titulo-loader span{
 
-
-
     color:#d4af37;
 
-
-
 }
-
-
-
-
 
 
 
 .eslogan-loader{
 
-
-
     color:#d7c08a;
-
-
 
     font-size:18px;
 
-
-
     letter-spacing:3px;
-
-
 
     text-transform:uppercase;
 
-
-
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -5268,15 +2635,7 @@ nav a{
 
 
 
-
-
-
-
     0%{
-
-
-
-
 
 
 
@@ -5284,15 +2643,7 @@ nav a{
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -5300,23 +2651,11 @@ nav a{
 
 
 
-
-
-
-
         opacity:1;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -5324,15 +2663,7 @@ nav a{
 
 
 
-
-
-
-
         opacity:.4;
-
-
-
-
 
 
 
@@ -5340,19 +2671,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -5364,15 +2683,7 @@ nav a{
 
 
 
-
-
-
-
     0%,80%{
-
-
-
-
 
 
 
@@ -5380,15 +2691,7 @@ nav a{
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -5396,19 +2699,9 @@ nav a{
 
 
 
-
-
-
-
         opacity:0;
 
-
-
         visibility:hidden;
-
-
-
-
 
 
 
@@ -5416,17 +2709,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -5436,15 +2719,7 @@ nav a{
 
 
 
-
-
-
-
 .particulas{
-
-
-
-
 
 
 
@@ -5452,31 +2727,15 @@ nav a{
 
 
 
-
-
-
-
     top:0;
-
-
 
     left:0;
 
 
 
-
-
-
-
     width:100%;
 
-
-
     height:100%;
-
-
-
-
 
 
 
@@ -5484,41 +2743,19 @@ nav a{
 
 
 
-
-
-
-
     overflow:hidden;
-
-
-
-
 
 
 
     z-index:0;
 
-
-
     mix-blend-mode: screen;
-
-
 
     will-change: transform;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -5528,15 +2765,7 @@ nav a{
 
 
 
-
-
-
-
 .particulas::before{
-
-
-
-
 
 
 
@@ -5544,27 +2773,13 @@ nav a{
 
 
 
-
-
-
-
     position:absolute;
-
-
-
-
 
 
 
     width:4px;
 
-
-
     height:4px;
-
-
-
-
 
 
 
@@ -5572,71 +2787,35 @@ nav a{
 
 
 
-
-
-
-
     background:#d4af37;
-
-
-
-
 
 
 
     box-shadow:
 
-
-
     10px 30px #d4af37, 40px 80px #d4af37, 70px 160px #d4af37, 110px 40px #d4af37,
-
-
 
     150px 210px #d4af37, 190px 90px #d4af37, 230px 260px #d4af37, 270px 120px #d4af37,
 
-
-
     310px 50px #d4af37, 350px 190px #d4af37, 390px 300px #d4af37, 430px 70px #d4af37,
-
-
 
     470px 150px #d4af37, 510px 20px #d4af37, 550px 230px #d4af37, 590px 100px #d4af37,
 
-
-
     630px 280px #d4af37, 670px 60px #d4af37, 710px 200px #d4af37, 750px 30px #d4af37,
-
-
 
     790px 250px #d4af37, 830px 110px #d4af37, 870px 330px #d4af37, 910px 45px #d4af37,
 
-
-
     950px 210px #d4af37, 990px 80px #d4af37, 1030px 260px #d4af37, 1070px 140px #d4af37,
-
-
 
     1110px 320px #d4af37, 1150px 35px #d4af37, 1190px 170px #d4af37, 1230px 95px #d4af37,
 
-
-
     1270px 270px #d4af37, 1310px 50px #d4af37, 1350px 210px #d4af37, 1390px 130px #d4af37,
-
-
 
     1430px 300px #d4af37, 1470px 65px #d4af37, 1510px 240px #d4af37, 1550px 120px #d4af37,
 
-
-
     1590px 320px #d4af37, 1630px 90px #d4af37, 1670px 260px #d4af37, 1710px 40px #d4af37,
 
-
-
     1750px 190px #d4af37, 1790px 110px #d4af37, 1830px 300px #d4af37, 1870px 70px #d4af37;
-
-
-
-
 
 
 
@@ -5644,25 +2823,11 @@ nav a{
 
 
 
-
-
-
-
     opacity:.98;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -5672,15 +2837,7 @@ nav a{
 
 
 
-
-
-
-
     content:"";
-
-
-
-
 
 
 
@@ -5688,19 +2845,9 @@ nav a{
 
 
 
-
-
-
-
     width:3px;
 
-
-
     height:3px;
-
-
-
-
 
 
 
@@ -5708,55 +2855,27 @@ nav a{
 
 
 
-
-
-
-
     background:#f6d365;
-
-
-
-
 
 
 
     box-shadow:
 
-
-
     30px 60px #f6d365, 70px 140px #f6d365, 110px 20px #f6d365, 150px 180px #f6d365,
-
-
 
     190px 80px #f6d365, 230px 260px #f6d365, 270px 40px #f6d365, 310px 200px #f6d365,
 
-
-
     350px 120px #f6d365, 390px 300px #f6d365, 430px 50px #f6d365, 470px 220px #f6d365,
-
-
 
     510px 100px #f6d365, 550px 340px #f6d365, 590px 30px #f6d365, 630px 210px #f6d365,
 
-
-
     670px 70px #f6d365, 710px 260px #f6d365, 750px 140px #f6d365, 790px 320px #f6d365,
-
-
 
     830px 55px #f6d365, 870px 230px #f6d365, 910px 95px #f6d365, 950px 280px #f6d365,
 
-
-
     990px 150px #f6d365, 1030px 330px #f6d365, 1070px 60px #f6d365, 1110px 240px #f6d365,
 
-
-
     1150px 90px #f6d365, 1190px 310px #f6d365, 1230px 40px #f6d365, 1270px 210px #f6d365;
-
-
-
-
 
 
 
@@ -5764,25 +2883,11 @@ nav a{
 
 
 
-
-
-
-
     opacity:1;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -5792,15 +2897,7 @@ nav a{
 
 
 
-
-
-
-
     0%{
-
-
-
-
 
 
 
@@ -5808,15 +2905,7 @@ nav a{
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -5824,23 +2913,11 @@ nav a{
 
 
 
-
-
-
-
         transform:translate(-30px,-20px) rotate(8deg);
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -5848,23 +2925,11 @@ nav a{
 
 
 
-
-
-
-
         transform:translate(20px,-40px) rotate(-6deg);
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -5872,23 +2937,11 @@ nav a{
 
 
 
-
-
-
-
         transform:translate(-10px,20px) rotate(6deg);
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -5896,15 +2949,7 @@ nav a{
 
 
 
-
-
-
-
         transform:translate(0,0) rotate(0deg);
-
-
-
-
 
 
 
@@ -5912,17 +2957,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -5932,15 +2967,7 @@ nav a{
 
 
 
-
-
-
-
     0%{
-
-
-
-
 
 
 
@@ -5948,15 +2975,7 @@ nav a{
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -5964,23 +2983,11 @@ nav a{
 
 
 
-
-
-
-
         transform:translate(20px,10px) rotate(-8deg);
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -5988,23 +2995,11 @@ nav a{
 
 
 
-
-
-
-
         transform:translate(-30px,30px) rotate(10deg);
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -6012,23 +3007,11 @@ nav a{
 
 
 
-
-
-
-
         transform:translate(15px,-15px) rotate(-6deg);
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -6036,15 +3019,7 @@ nav a{
 
 
 
-
-
-
-
         transform:translate(0,0) rotate(0deg);
-
-
-
-
 
 
 
@@ -6052,15 +3027,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
 
 
 
@@ -6068,15 +3035,7 @@ nav a{
 
 
 
-
-
-
-
 .footer{
-
-
-
-
 
 
 
@@ -6084,15 +3043,7 @@ nav a{
 
 
 
-
-
-
-
     background:#0a0a0a;
-
-
-
-
 
 
 
@@ -6100,15 +3051,7 @@ nav a{
 
 
 
-
-
-
-
     padding:60px 20px;
-
-
-
-
 
 
 
@@ -6116,17 +3059,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -6136,15 +3069,7 @@ nav a{
 
 
 
-
-
-
-
     color:#d4af37;
-
-
-
-
 
 
 
@@ -6152,15 +3077,7 @@ nav a{
 
 
 
-
-
-
-
     letter-spacing:4px;
-
-
-
-
 
 
 
@@ -6168,15 +3085,7 @@ nav a{
 
 
 
-
-
-
-
     font-family: "Georgia", serif;
-
-
-
-
 
 
 
@@ -6184,25 +3093,11 @@ nav a{
 
 
 
-
-
-
-
     text-shadow: 0 3px 10px rgba(0,0,0,0.6);
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -6212,15 +3107,7 @@ nav a{
 
 
 
-
-
-
-
     color:#cfcfcf;
-
-
-
-
 
 
 
@@ -6228,25 +3115,11 @@ nav a{
 
 
 
-
-
-
-
     line-height:1.8;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -6256,15 +3129,7 @@ nav a{
 
 
 
-
-
-
-
     display:flex;
-
-
-
-
 
 
 
@@ -6272,15 +3137,7 @@ nav a{
 
 
 
-
-
-
-
     flex-wrap:wrap;
-
-
-
-
 
 
 
@@ -6288,25 +3145,11 @@ nav a{
 
 
 
-
-
-
-
     margin:35px 0;
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -6316,15 +3159,7 @@ nav a{
 
 
 
-
-
-
-
     background:#151515;
-
-
-
-
 
 
 
@@ -6332,15 +3167,7 @@ nav a{
 
 
 
-
-
-
-
     border-radius:30px;
-
-
-
-
 
 
 
@@ -6348,17 +3175,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -6368,15 +3185,7 @@ nav a{
 
 
 
-
-
-
-
     width:80%;
-
-
-
-
 
 
 
@@ -6384,15 +3193,7 @@ nav a{
 
 
 
-
-
-
-
     border:none;
-
-
-
-
 
 
 
@@ -6400,17 +3201,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -6420,15 +3211,7 @@ nav a{
 
 
 
-
-
-
-
 .redes-sociales{
-
-
-
-
 
 
 
@@ -6436,17 +3219,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -6456,15 +3229,7 @@ nav a{
 
 
 
-
-
-
-
     display:inline-block;
-
-
-
-
 
 
 
@@ -6472,15 +3237,7 @@ nav a{
 
 
 
-
-
-
-
     border-radius:30px;
-
-
-
-
 
 
 
@@ -6488,15 +3245,7 @@ nav a{
 
 
 
-
-
-
-
     border:1px solid rgba(212,175,55,.45);
-
-
-
-
 
 
 
@@ -6504,15 +3253,7 @@ nav a{
 
 
 
-
-
-
-
     text-decoration:none;
-
-
-
-
 
 
 
@@ -6520,15 +3261,7 @@ nav a{
 
 
 
-
-
-
-
     letter-spacing:1px;
-
-
-
-
 
 
 
@@ -6536,17 +3269,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -6556,23 +3279,11 @@ nav a{
 
 
 
-
-
-
-
     background:#d4af37;
 
 
 
-
-
-
-
     color:#111;
-
-
-
-
 
 
 
@@ -6580,25 +3291,11 @@ nav a{
 
 
 
-
-
-
-
     box-shadow:0 10px 24px rgba(212,175,55,.35);
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -6606,901 +3303,451 @@ nav a{
 
 .pago-transferencia{
 
-
-
     margin:80px auto;
-
-
 
     padding:60px 20px;
 
-
-
     text-align:center;
-
-
 
     background:linear-gradient(180deg,#050505,#111);
 
-
-
     border-top:1px solid rgba(212,175,55,.25);
 
-
-
 }
-
-
-
-
 
 
 
 .pago-transferencia h2{
 
-
-
     color:#d4af37;
-
-
 
     font-size:40px;
 
-
-
     margin-bottom:12px;
-
-
 
     letter-spacing:2px;
 
-
-
 }
-
-
-
-
 
 
 
 .texto-pago{
 
-
-
     color:#d6d6d6;
-
-
 
     max-width:760px;
 
-
-
     margin:0 auto 28px;
-
-
 
     font-size:18px;
 
-
-
     line-height:1.7;
 
-
-
 }
-
-
-
-
 
 
 
 .tarjeta-pago{
 
-
-
     max-width:460px;
-
-
 
     margin:0 auto 30px;
 
-
-
     padding:30px;
-
-
 
     border-radius:24px;
 
-
-
     background:linear-gradient(135deg,#151515,#262626);
-
-
 
     border:1px solid rgba(212,175,55,.55);
 
-
-
     box-shadow:0 18px 40px rgba(0,0,0,.55);
-
-
 
     text-align:left;
 
-
-
     color:#fff;
 
-
-
 }
-
-
-
-
 
 
 
 .chip{
 
-
-
     width:58px;
-
-
 
     height:42px;
 
-
-
     border-radius:10px;
-
-
 
     background:linear-gradient(135deg,#d4af37,#f5d76e);
 
-
-
     margin-bottom:22px;
 
-
-
 }
-
-
-
-
 
 
 
 .tarjeta-pago h3{
 
-
-
     color:#d4af37;
-
-
 
     letter-spacing:2px;
 
-
-
     margin-bottom:18px;
 
-
-
 }
-
-
-
-
 
 
 
 .numero-tarjeta{
 
-
-
     font-size:28px;
-
-
 
     letter-spacing:4px;
 
-
-
     font-family:monospace;
-
-
 
     margin:18px 0;
 
-
-
 }
-
-
-
-
 
 
 
 .titular-tarjeta{
 
-
-
     font-size:18px;
-
-
 
     font-weight:700;
 
-
-
     margin-bottom:6px;
 
-
-
 }
-
-
-
-
 
 
 
 .banco-tarjeta{
 
-
-
     color:#cfcfcf;
 
-
-
 }
-
-
-
-
 
 
 
 .pasos-pago{
 
-
-
     max-width:760px;
-
-
 
     margin:20px auto 28px;
 
-
-
     text-align:left;
-
-
 
     background:#121212;
 
-
-
     border:1px solid rgba(212,175,55,.22);
-
-
 
     border-radius:18px;
 
-
-
     padding:24px;
 
-
-
 }
-
-
-
-
 
 
 
 .pasos-pago h3{
 
-
-
     color:#d4af37;
-
-
 
     margin-bottom:14px;
 
-
-
 }
-
-
-
-
 
 
 
 .pasos-pago ol{
 
-
-
     color:#e6e6e6;
-
-
 
     line-height:1.9;
 
-
-
     padding-left:22px;
 
-
-
 }
-
-
-
-
 
 
 
 .aviso-pago{
 
-
-
     margin-top:18px;
-
-
 
     padding:14px 16px;
 
-
-
     border-radius:14px;
-
-
 
     background:rgba(212,175,55,.08);
 
-
-
     border:1px solid rgba(212,175,55,.35);
-
-
 
     color:#f3e2a0;
 
-
-
     font-size:14px;
-
-
 
     line-height:1.6;
 
-
-
     text-align:left;
 
-
-
 }
-
-
-
-
 
 
 
 .btn-whatsapp-pago{
 
-
-
     display:inline-block;
-
-
 
     margin-top:10px;
 
-
-
     padding:16px 34px;
-
-
 
     border-radius:999px;
 
-
-
     background:#25D366;
-
-
 
     color:#fff;
 
-
-
     font-weight:700;
-
-
 
     text-decoration:none;
 
-
-
     transition:.3s;
-
-
 
     box-shadow:0 10px 24px rgba(37,211,102,.28);
 
-
-
 }
-
-
-
-
 
 
 
 .btn-whatsapp-pago:hover{
 
-
-
     transform:translateY(-3px) scale(1.03);
-
-
 
     box-shadow:0 14px 28px rgba(37,211,102,.42);
 
-
-
 }
-
-
-
-
 
 
 
 /* ===== MODAL DE PAGO ===== */
 
-
-
 .modal-pago{
-
-
 
     position:fixed;
 
-
-
     top:0;
-
-
 
     left:0;
 
-
-
     width:100%;
-
-
 
     height:100%;
 
-
-
     background:rgba(0,0,0,.85);
-
-
 
     display:none;
 
-
-
     justify-content:center;
-
-
 
     align-items:center;
 
-
-
     z-index:9999;
 
-
-
 }
-
-
-
-
 
 
 
 .modal-pago.activo{
 
-
-
     display:flex;
 
-
-
 }
-
-
-
-
 
 
 
 .contenido-modal{
 
-
-
     width:90%;
-
-
 
     max-width:500px;
 
-
-
     background:#111;
-
-
 
     border:1px solid rgba(212,175,55,.5);
 
-
-
     border-radius:25px;
-
-
 
     padding:30px;
 
-
-
     position:relative;
-
-
 
     color:white;
 
-
-
     box-shadow:0 20px 50px rgba(0,0,0,.7);
 
-
-
 }
-
-
-
-
 
 
 
 .cerrar-modal{
 
-
-
     position:absolute;
-
-
 
     right:20px;
 
-
-
     top:15px;
-
-
 
     font-size:32px;
 
-
-
     cursor:pointer;
-
-
 
     color:#d4af37;
 
-
-
 }
-
-
-
-
 
 
 
 .contenido-modal h2{
 
-
-
     color:#d4af37;
-
-
 
     text-align:center;
 
-
-
     margin-bottom:15px;
 
-
-
 }
-
-
-
-
 
 
 
 .texto-modal{
 
-
-
     color:#ddd;
-
-
 
     text-align:center;
 
-
-
     line-height:1.6;
 
-
-
 }
-
-
-
-
 
 
 
 .tarjeta-modal{
 
-
-
     margin:25px 0;
-
-
 
     padding:25px;
 
-
-
     border-radius:20px;
-
-
 
     background:linear-gradient(135deg,#1a1a1a,#2a2a2a);
 
-
-
     border:1px solid rgba(212,175,55,.4);
 
-
-
 }
-
-
-
-
 
 
 
 .chip-modal{
 
-
-
     width:55px;
-
-
 
     height:40px;
 
-
-
     border-radius:8px;
-
-
 
     background:linear-gradient(135deg,#d4af37,#f5d76e);
 
-
-
     margin-bottom:20px;
 
-
-
 }
-
-
-
-
 
 
 
 .tarjeta-modal h3{
 
-
-
     color: #d4af37;
-
-
 
     letter-spacing: 1.5px;
 
-
-
     margin-bottom: 14px;
 
-
-
 }
-
-
-
-
 
 
 
 .numero-modal{
 
-
-
     font-size:26px;
-
-
 
     letter-spacing:4px;
 
-
-
     font-family:monospace;
-
-
 
     margin:15px 0;
 
-
-
 }
-
-
-
-
 
 
 
 .titular-modal{
 
-
-
     font-size:18px;
-
-
 
     font-weight:bold;
 
-
-
 }
-
-
-
-
 
 
 
 .pasos-modal p{
 
-
-
     margin:10px 0;
-
-
 
     color:#e5e5e5;
 
-
-
 }
-
-
-
-
 
 
 
 .btn-whatsapp-modal{
 
-
-
     display:block;
-
-
 
     text-align:center;
 
-
-
     margin-top:25px;
-
-
 
     padding:15px;
 
-
-
     border-radius:30px;
-
-
 
     background:#25D366;
 
-
-
     color:white;
-
-
 
     font-weight:bold;
 
-
-
     text-decoration:none;
-
-
 
     transition:.3s;
 
-
-
 }
-
-
-
-
 
 
 
 .btn-whatsapp-modal:hover{
 
-
-
     transform:scale(1.03);
-
-
 
     box-shadow:0 0 20px #25D366;
 
-
-
 }
-
-
-
-
 
 
 
@@ -7508,15 +3755,7 @@ nav a{
 
 
 
-
-
-
-
 #btnArriba{
-
-
-
-
 
 
 
@@ -7524,43 +3763,21 @@ nav a{
 
 
 
-
-
-
-
     bottom:30px;
-
-
 
     right:25px;
 
 
 
-
-
-
-
     width:55px;
-
-
 
     height:55px;
 
 
 
-
-
-
-
     border:none;
 
-
-
     border-radius:50%;
-
-
-
-
 
 
 
@@ -7568,27 +3785,13 @@ nav a{
 
 
 
-
-
-
-
     color:#111;
-
-
-
-
 
 
 
     font-size:28px;
 
-
-
     font-weight:bold;
-
-
-
-
 
 
 
@@ -7596,15 +3799,7 @@ nav a{
 
 
 
-
-
-
-
     display:none;
-
-
-
-
 
 
 
@@ -7612,15 +3807,7 @@ nav a{
 
 
 
-
-
-
-
     box-shadow:0 10px 25px rgba(212,175,55,.45);
-
-
-
-
 
 
 
@@ -7628,17 +3815,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -7648,15 +3825,7 @@ nav a{
 
 
 
-
-
-
-
     transform:translateY(-5px) scale(1.08);
-
-
-
-
 
 
 
@@ -7664,15 +3833,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
 
 
 
@@ -7680,15 +3841,7 @@ nav a{
 
 
 
-
-
-
-
     color:#888;
-
-
-
-
 
 
 
@@ -7696,17 +3849,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -7714,21 +3857,11 @@ nav a{
 
 /* =========================
 
-
-
    RESPONSIVE PARA CELULARES
-
-
 
    ANDROID Y IPHONE
 
-
-
 ========================= */
-
-
-
-
 
 
 
@@ -7736,15 +3869,7 @@ nav a{
 
 
 
-
-
-
-
     /* TITULO PRINCIPAL */
-
-
-
-
 
 
 
@@ -7752,31 +3877,15 @@ nav a{
 
 
 
-
-
-
-
         font-size: 38px !important;
 
-
-
         letter-spacing: 2px !important;
-
-
 
         line-height: 1.2;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -7784,31 +3893,15 @@ nav a{
 
 
 
-
-
-
-
         font-size: 34px !important;
 
-
-
         letter-spacing: 2px !important;
-
-
 
         line-height: 1.2;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -7816,39 +3909,19 @@ nav a{
 
 
 
-
-
-
-
     .eslogan-negocio{
-
-
-
-
 
 
 
         font-size: 12px !important;
 
-
-
         letter-spacing: 2px !important;
-
-
 
         padding: 0 10px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -7856,27 +3929,13 @@ nav a{
 
 
 
-
-
-
-
         font-size: 13px !important;
-
-
 
         letter-spacing: 2px !important;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -7884,39 +3943,19 @@ nav a{
 
 
 
-
-
-
-
     .logo img,
-
-
 
     .logo-loader-img{
 
 
 
-
-
-
-
         width: 110px !important;
-
-
 
         height: 110px !important;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -7924,27 +3963,13 @@ nav a{
 
 
 
-
-
-
-
         width: 170px !important;
-
-
 
         height: 170px !important;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -7952,27 +3977,13 @@ nav a{
 
 
 
-
-
-
-
         width: 185px !important;
-
-
 
         height: 185px !important;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -7980,35 +3991,17 @@ nav a{
 
 
 
-
-
-
-
     .hero{
-
-
-
-
 
 
 
         min-height: 78vh;
 
-
-
         padding: 28px 18px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8016,27 +4009,13 @@ nav a{
 
 
 
-
-
-
-
         font-size: 42px !important;
-
-
 
         line-height: 1.15;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8044,31 +4023,15 @@ nav a{
 
 
 
-
-
-
-
         font-size: 16px !important;
 
-
-
         line-height: 1.6;
-
-
 
         padding: 0 12px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8076,39 +4039,19 @@ nav a{
 
 
 
-
-
-
-
     .buscador{
-
-
-
-
 
 
 
         width: 95%;
 
-
-
         padding: 16px;
-
-
 
         gap: 10px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8116,27 +4059,13 @@ nav a{
 
 
 
-
-
-
-
         width: 100%;
-
-
 
         font-size: 16px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8144,27 +4073,13 @@ nav a{
 
 
 
-
-
-
-
         width: 100%;
-
-
 
         font-size: 16px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8172,39 +4087,19 @@ nav a{
 
 
 
-
-
-
-
     .categorias{
-
-
-
-
 
 
 
         display: grid !important;
 
-
-
         grid-template-columns: repeat(2, 1fr);
-
-
 
         gap:14px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8212,31 +4107,15 @@ nav a{
 
 
 
-
-
-
-
         width: 100%;
 
-
-
         font-size: 14px;
-
-
 
         padding: 12px 10px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8244,43 +4123,21 @@ nav a{
 
 
 
-
-
-
-
     .contenedor-productos{
-
-
-
-
 
 
 
         display: grid !important;
 
-
-
         grid-template-columns: 1fr;
 
-
-
         gap: 18px;
-
-
 
         padding: 0 12px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8288,27 +4145,13 @@ nav a{
 
 
 
-
-
-
-
         width: 100%;
-
-
 
         margin: 0 auto;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8316,23 +4159,11 @@ nav a{
 
 
 
-
-
-
-
         height: 250px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8340,23 +4171,11 @@ nav a{
 
 
 
-
-
-
-
         font-size: 20px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8364,23 +4183,11 @@ nav a{
 
 
 
-
-
-
-
         font-size: 24px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8388,43 +4195,21 @@ nav a{
 
 
 
-
-
-
-
     .carrito,
-
-
 
     .carrito-panel{
 
 
 
-
-
-
-
         width: 100% !important;
 
-
-
         max-width: 100%;
-
-
 
         border-radius: 18px 18px 0 0;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8432,35 +4217,17 @@ nav a{
 
 
 
-
-
-
-
     .contenido-modal{
-
-
-
-
 
 
 
         width: 95%;
 
-
-
         padding: 22px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8468,27 +4235,13 @@ nav a{
 
 
 
-
-
-
-
         font-size: 20px;
-
-
 
         letter-spacing: 2px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8496,39 +4249,19 @@ nav a{
 
 
 
-
-
-
-
     .footer-info{
-
-
-
-
 
 
 
         flex-direction: column;
 
-
-
         align-items: center;
-
-
 
         gap: 12px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8536,23 +4269,11 @@ nav a{
 
 
 
-
-
-
-
         font-size: 26px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8560,39 +4281,19 @@ nav a{
 
 
 
-
-
-
-
     #btnArriba{
-
-
-
-
 
 
 
         width: 48px;
 
-
-
         height: 48px;
-
-
 
         font-size: 22px;
 
-
-
         bottom: 18px;
 
-
-
         right: 18px;
-
-
-
-
 
 
 
@@ -8600,17 +4301,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -8620,27 +4311,13 @@ nav a{
 
 
 
-
-
-
-
 @media (max-width: 430px){
-
-
-
-
 
 
 
     .nombre-negocio,
 
-
-
     .titulo-loader{
-
-
-
-
 
 
 
@@ -8648,15 +4325,7 @@ nav a{
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8664,23 +4333,11 @@ nav a{
 
 
 
-
-
-
-
         font-size: 15px !important;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8688,23 +4345,11 @@ nav a{
 
 
 
-
-
-
-
         grid-template-columns: 1fr;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8712,23 +4357,11 @@ nav a{
 
 
 
-
-
-
-
         height: 220px;
 
 
 
-
-
-
-
     }
-
-
-
-
 
 
 
@@ -8736,15 +4369,7 @@ nav a{
 
 
 
-
-
-
-
         font-size: 18px;
-
-
-
-
 
 
 
@@ -8752,17 +4377,7 @@ nav a{
 
 
 
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
