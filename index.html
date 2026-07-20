@@ -1,1 +1,174 @@
-<!DOCTYPE html><html lang="es"><head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>thepilotcaps</title>    <link rel="stylesheet" href="estilos.css"></head><body>    <div class="particulas"></div><div class="loader">    <div class="loader-contenido">        <div class="logo-loader-wrap">            <img src="logo.jpeg" alt="thepilotcaps" class="logo-loader-img">        </div>        <h1 class="titulo-loader">            Bienvenido a <span>thepilotcaps</span>        </h1>        <p class="eslogan-loader">            Elegancia, estilo y exclusividad        </p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>thepilotcaps</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="particulas"></div>
+
+  <div class="loader">
+    <div class="loader-contenido">
+      <div class="logo-loader-wrap">
+        <img src="logo.jpeg" alt="thepilotcaps" class="logo-loader-img">
+      </div>
+      <h1 class="titulo-loader">Bienvenido a <span>thepilotcaps</span></h1>
+      <p class="eslogan-loader">Elegancia, estilo y exclusividad</p>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="logo-container">
+      <div class="logo">
+        <img src="logo.jpeg" alt="Logo">
+        <span class="base-luz"></span>
+      </div>
+    </div>
+
+    <div class="hero-titulo">
+      <h1 class="nombre-negocio"><span>thepilotcaps</span></h1>
+      <p class="eslogan-negocio">Elegancia, estilo y exclusividad en cada detalle</p>
+    </div>
+
+    <p class="subtitulo">Moda • Perfumes • Tenis • Accesorios</p>
+
+    <nav class="menu">
+      <a href="#">Inicio</a>
+      <a href="#">Hombre</a>
+      <a href="#">Mujer</a>
+      <a href="#">Catálogo</a>
+      <a href="#">Contacto</a>
+    </nav>
+
+    <div class="menu-icono" onclick="abrirMenu()">☰</div>
+
+    <nav id="menu">
+      <a href="#">Inicio</a>
+      <a href="#">Tenis</a>
+      <a href="#">Ropa</a>
+      <a href="#">Perfumes</a>
+      <a href="#">Bolsas</a>
+      <a href="#">Maquillaje</a>
+      <a href="#">Cinturones</a>
+      <a href="#">Gorras</a>
+    </nav>
+
+    <div class="carrito-icono" onclick="abrirCarrito()">
+      🛒 Carrito
+      <span id="contador-carrito">0</span>
+    </div>
+  </header>
+
+  <div id="carrito" class="carrito-panel">
+    <h2>Tu carrito</h2>
+    <div id="productos-carrito"></div>
+    <h3>Total: $<span id="total">0</span> MXN</h3>
+    <button onclick="vaciarCarrito()">Vaciar carrito</button>
+    <button class="btn-tarjeta" onclick="abrirPago()">💳 Pagar con tarjeta</button>
+    <button class="btn-whatsapp" onclick="comprarWhatsApp()">Comprar por WhatsApp</button>
+  </div>
+
+  <div id="modalPago" class="modal-pago">
+    <div class="contenido-modal">
+      <span class="cerrar-modal" onclick="cerrarPago()">&times;</span>
+      <h2>💳 Transferencia bancaria</h2>
+      <p class="texto-modal">Realiza la transferencia a la siguiente tarjeta Coppel y envíanos la captura del comprobante por WhatsApp para confirmar tu pedido.</p>
+      <div class="tarjeta-modal">
+        <div class="chip-modal"></div>
+        <h3>Tarjeta Coppel</h3>
+        <p class="numero-modal">4169160850059701</p>
+        <p class="titular-modal">Juan jose vasques hernandez</p>
+      </div>
+      <div class="pasos-modal">
+        <p>✔ Realiza la transferencia o depósito.</p>
+        <p>✔ Toma captura del comprobante.</p>
+        <p>✔ Envía la captura por WhatsApp junto con tu pedido.</p>
+      </div>
+      <a href="https://wa.me/+529623835723" target="_blank" class="btn-whatsapp-modal">📲 Enviar comprobante por WhatsApp</a>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="hero-contenido">
+      <h1>Lleva tu estilo al siguiente nivel</h1>
+      <p>Moda, accesorios y perfumes premium seleccionados para personas que buscan elegancia y exclusividad.</p>
+      <button onclick="irCatalogo()">Explorar catálogo</button>
+    </div>
+  </section>
+
+  <section class="categorias-seccion">
+    <h2 class="titulo-categoria">Nuestras Categorías</h2>
+    <p class="subtitulo-categoria">Explora nuestra selección premium de productos</p>
+    <div class="categorias"></div>
+  </section>
+
+  <div class="buscador">
+    <input type="text" id="buscarProducto" placeholder="Buscar producto o marca...">
+    <button onclick="buscarProductos()">🔍 Buscar</button>
+  </div>
+
+  <div class="categorias-filtro">
+    <button onclick="filtrarProductos('Todos')">Todos</button>
+    <button onclick="filtrarProductos('Tenis')">👟 Tenis</button>
+    <button onclick="filtrarProductos('Ropa')">👕 Ropa</button>
+    <button onclick="filtrarProductos('Perfumes')">🧴 Perfumes</button>
+    <button onclick="filtrarProductos('Bolsas')">👜 Bolsas</button>
+    <button onclick="filtrarProductos('Maquillaje')">💄 Maquillaje</button>
+    <button onclick="filtrarProductos('Cinturones')">👔 Cinturones</button>
+    <button onclick="filtrarProductos('Gorras')">🧢 Gorras</button>
+  </div>
+
+  <section class="productos" id="productos">
+    <h2 class="titulo-seccion">Nuestros Productos</h2>
+    <div id="lista-productos" class="contenedor-productos"></div>
+  </section>
+
+  <section class="pago-transferencia">
+    <h2>💳 Pago por transferencia</h2>
+    <p class="texto-pago">Realiza la transferencia o depósito y envíanos tu comprobante por WhatsApp para confirmar tu pedido.</p>
+    <div class="tarjeta-pago">
+      <div class="chip"></div>
+      <h3>Tarjeta Coppel</h3>
+      <p class="numero-tarjeta">4169160850059701</p>
+      <p class="titular-tarjeta">Juan Jose Vasques Hernandez</p>
+      <p class="banco-tarjeta">Coppel</p>
+    </div>
+    <div class="pasos-pago">
+      <h3>📌 Pasos para confirmar tu compra</h3>
+      <ol>
+        <li>Realiza la transferencia o depósito.</li>
+        <li>Toma una captura del comprobante de pago.</li>
+        <li>Envía la captura por WhatsApp junto con tu nombre y el producto comprado.</li>
+        <li>Tu pedido será confirmado y preparado para entrega.</li>
+      </ol>
+    </div>
+    <p class="aviso-pago">⚠️ Importante: Tu pedido será procesado únicamente después de verificar el comprobante de pago. Si no envías tu comprobante por WhatsApp o el pago no es validado por nuestro equipo, no podremos garantizar la aplicación del pago ni la entrega del producto.</p>
+    <a href="https://wa.me/+529623835723" target="_blank" class="btn-whatsapp-pago">📲 Enviar comprobante por WhatsApp</a>
+  </section>
+
+  <button id="btnArriba" onclick="volverArriba()">↑</button>
+
+  <script src="productos.js"></script>
+  <script src="script.js"></script>
+
+  <footer class="footer">
+    <div class="footer-contenido">
+      <h2>thepilotcaps</h2>
+      <p>Productos premium con calidad garantizada.</p>
+      <div class="footer-info">
+        <p>✔ Productos Premium</p>
+        <p>🔒 Compras Seguras</p>
+        <p>📍 Envíos a Tapachula, Tuxtla Chico, Frontera Hidalgo y Zaragoza</p>
+        <p>🤝 Entregas Personales</p>
+      </div>
+      <div class="redes-sociales">
+        <a href="https://www.instagram.com/the_pilotcaps" target="_blank" class="instagram-link">📸 @the_pilotcaps</a>
+      </div>
+      <hr>
+      <p class="copyright">© 2026 Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
