@@ -8,7 +8,6 @@
 </head>
 <body>
   <div class="particulas"></div>
-
   <div class="loader">
     <div class="loader-contenido">
       <div class="logo-loader-wrap">
@@ -18,7 +17,6 @@
       <p class="eslogan-loader">Elegancia, estilo y exclusividad</p>
     </div>
   </div>
-
   <header class="header">
     <div class="logo-container">
       <div class="logo">
@@ -26,14 +24,11 @@
         <span class="base-luz"></span>
       </div>
     </div>
-
     <div class="hero-titulo">
       <h1 class="nombre-negocio"><span>thepilotcaps</span></h1>
       <p class="eslogan-negocio">Elegancia, estilo y exclusividad en cada detalle</p>
     </div>
-
     <p class="subtitulo">Moda • Perfumes • Tenis • Accesorios</p>
-
     <nav class="menu">
       <a href="#">Inicio</a>
       <a href="#">Hombre</a>
@@ -41,9 +36,7 @@
       <a href="#">Catálogo</a>
       <a href="#">Contacto</a>
     </nav>
-
     <div class="menu-icono" onclick="abrirMenu()">☰</div>
-
     <nav id="menu">
       <a href="#">Inicio</a>
       <a href="#">Tenis</a>
@@ -54,13 +47,8 @@
       <a href="#">Cinturones</a>
       <a href="#">Gorras</a>
     </nav>
-
-    <div class="carrito-icono" onclick="abrirCarrito()">
-      🛒 Carrito
-      <span id="contador-carrito">0</span>
-    </div>
+    <div class="carrito-icono" onclick="abrirCarrito()">🛒 Carrito <span id="contador-carrito">0</span></div>
   </header>
-
   <div id="carrito" class="carrito-panel">
     <h2>Tu carrito</h2>
     <div id="productos-carrito"></div>
@@ -69,7 +57,6 @@
     <button class="btn-tarjeta" onclick="abrirPago()">💳 Pagar con tarjeta</button>
     <button class="btn-whatsapp" onclick="comprarWhatsApp()">Comprar por WhatsApp</button>
   </div>
-
   <div id="modalPago" class="modal-pago">
     <div class="contenido-modal">
       <span class="cerrar-modal" onclick="cerrarPago()">&times;</span>
@@ -89,7 +76,6 @@
       <a href="https://wa.me/+529623835723" target="_blank" class="btn-whatsapp-modal">📲 Enviar comprobante por WhatsApp</a>
     </div>
   </div>
-
   <section class="hero">
     <div class="hero-contenido">
       <h1>Lleva tu estilo al siguiente nivel</h1>
@@ -97,18 +83,15 @@
       <button onclick="irCatalogo()">Explorar catálogo</button>
     </div>
   </section>
-
   <section class="categorias-seccion">
     <h2 class="titulo-categoria">Nuestras Categorías</h2>
     <p class="subtitulo-categoria">Explora nuestra selección premium de productos</p>
     <div class="categorias"></div>
   </section>
-
   <div class="buscador">
     <input type="text" id="buscarProducto" placeholder="Buscar producto o marca...">
     <button onclick="buscarProductos()">🔍 Buscar</button>
   </div>
-
   <div class="categorias-filtro">
     <button onclick="filtrarProductos('Todos')">Todos</button>
     <button onclick="filtrarProductos('Tenis')">👟 Tenis</button>
@@ -119,12 +102,10 @@
     <button onclick="filtrarProductos('Cinturones')">👔 Cinturones</button>
     <button onclick="filtrarProductos('Gorras')">🧢 Gorras</button>
   </div>
-
   <section class="productos" id="productos">
     <h2 class="titulo-seccion">Nuestros Productos</h2>
     <div id="lista-productos" class="contenedor-productos"></div>
   </section>
-
   <section class="pago-transferencia">
     <h2>💳 Pago por transferencia</h2>
     <p class="texto-pago">Realiza la transferencia o depósito y envíanos tu comprobante por WhatsApp para confirmar tu pedido.</p>
@@ -147,12 +128,9 @@
     <p class="aviso-pago">⚠️ Importante: Tu pedido será procesado únicamente después de verificar el comprobante de pago. Si no envías tu comprobante por WhatsApp o el pago no es validado por nuestro equipo, no podremos garantizar la aplicación del pago ni la entrega del producto.</p>
     <a href="https://wa.me/+529623835723" target="_blank" class="btn-whatsapp-pago">📲 Enviar comprobante por WhatsApp</a>
   </section>
-
   <button id="btnArriba" onclick="volverArriba()">↑</button>
-
   <script src="productos.js"></script>
   <script src="script.js"></script>
-
   <footer class="footer">
     <div class="footer-contenido">
       <h2>thepilotcaps</h2>
