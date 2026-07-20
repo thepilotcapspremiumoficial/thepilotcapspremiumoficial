@@ -1,4 +1,4 @@
-const contenedorProductos = document.getElementById("lista-productos");
+ const contenedorProductos = document.getElementById("lista-productos");
 
 const imagenesPorId = {
     1: "tenis1.jpg.jpeg",
