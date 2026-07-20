@@ -30,10 +30,13 @@ function mostrarProductos(lista) {
         </p>
         `;
 
+        // Fallback para publicación en GitHub: usa el nombre del archivo en raíz.
+        const imagenPublicada = (producto.imagen || "").split("/").pop();
+
         tarjeta.innerHTML = `
     <div class="imagen-producto">
 
-        <img src="${producto.imagen}" alt="${producto.nombre}">
+        <img src="./${imagenPublicada}" alt="${producto.nombre}">
 
     </div>
 
